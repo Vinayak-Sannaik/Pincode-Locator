@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Favorites</title>
+    <link href="/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Saved Favorites</h1>
+        <a href="/" class="btn btn-secondary mb-3">Back to Search</a>
+
+        <div id="favoritesContainer">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Branch Type</th>
+                        <th>Delivery Status</th>
+                        <th>Circle</th>
+                        <th>District</th>
+                        <th>Region</th>
+                        <th>State</th>
+                        <th>Pincode</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="favoritesBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/favorites.js"></script>
+</body>
+</html>

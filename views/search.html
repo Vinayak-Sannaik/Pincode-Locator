@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Pincode</title>
+  <link rel="stylesheet" href="/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Search Indian Post Pincode</h1>
+    <form id="searchForm">
+      <div class="form-check">
+        <input type="radio" name="searchBy" value="pincode" id="byPincode" checked>
+        <label for="byPincode">Search by Pincode</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" name="searchBy" value="name" id="byName">
+        <label for="byName">Search by Name</label>
+      </div>
+      <input type="text" name="query" placeholder="Enter query" required>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+    <table class="table mt-5">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Branch Type</th>
+          <th>Delivery Status</th>
+          <th>Circle</th>
+          <th>District</th>
+          <th>Region</th>
+          <th>State</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="resultsTable"></tbody>
+    </table>
+  </div>
+  <script src="/search.js"></script>
+</body>
+</html>
