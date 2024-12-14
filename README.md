@@ -15,7 +15,7 @@ Before you can run this project, you need to have the following installed on you
 1. Clone this repository to your local machine.
 
     ```bash
-    git clone [<repository-url>](https://github.com/Vinayak-Sannaik/Pincode-Locator)
+    git clone https://github.com/Vinayak-Sannaik/Pincode-Locator
     cd Pincode-Locator
     ```
 
