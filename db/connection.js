@@ -10,7 +10,6 @@ const pool = mysql.createPool({
   queueLimit: 0,
 });
 
-// Use the promise-based pool
 const promisePool = pool.promise();
 
 const getFavorites = async () => {
