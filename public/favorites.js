@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
   
-  // Function to remove a favorite from the list (if needed)
+
   async function removeFavorite(favoriteId) {
     try {
       const response = await fetch(`/api/favorites/${favoriteId}`, {
